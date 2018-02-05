@@ -1,0 +1,20 @@
+/* 重置 */
+body, fieldset, th, td, select, input, textarea { /*font-size: 12px;*/ font-family: "微软雅黑"; color: #666666; }
+select, input { vertical-align: middle; outline: medium; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset,input, textarea, p, blockquote, th, td { padding: 0; margin: 0; }
+i { font-style: normal }
+h3,h2,h4,b{ font-weight: normal; }
+strong,em{font-style:normal;} 
+textarea { resize : none;}
+html { overflow: -moz-scrollbars-vertical; overflow-x: hidden; } /*始终让 Firefox 显示滚动条*/
+* { word-wrap: break-word; border:0;}/*文字强制换行word-break:keep-all;(Ff)*/
+table { border-collapse: collapse; }/*细线表格*/
+fieldset, img { border: 1px; }/*清除描边,块显示*/
+ul, li { list-style-type: none; }/*无列表项目标记*/
+a {color:#666; text-decoration:none}  /* 重置链接a标签 */  
+a:visited,a:active,a:hover{text-decoration:none}    /* 重置链接a标签的鼠标滑动效果 */
+em { font-style: normal; }
+input[type=button], input[type=reset], input[type=submit], input[type=radio], input[type=checkbox] { cursor: pointer }
+/*.clear:after{display:block;visibility:hidden;clear:both;height:0;overflow:hidden;content:'.';}
+*:focus{outline:none;}*/
+
